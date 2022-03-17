@@ -4,7 +4,7 @@ from pygame.locals import *
 from subprocess import *
 
 os.environ["SDL_FBDEV"] = "/dev/fb1"
-os.environ["SDL_MOUSEDEV"] = "/dev/input/event9"
+os.environ["SDL_MOUSEDEV"] = "/dev/input/event0"
 
 os.environ["SDL_MOUSEDRV"] = "TSLIB"
 
