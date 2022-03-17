@@ -144,8 +144,8 @@ screen.fill(black)
 pygame.draw.rect(screen, tron_regular, (0, 0, 479, 319), 8)
 pygame.draw.rect(screen, tron_light, (2, 2, 479 - 4, 319 - 4), 2)
 
-pi_hostname = run_cmd("hostname")
-pi_hostname = "  " + pi_hostname[:-1]
+
+pi_hostname = "IOT Control"
 # Buttons and labels
 # First Row Label
 make_label(pi_hostname, 32, 30, 48, tron_inverse)
